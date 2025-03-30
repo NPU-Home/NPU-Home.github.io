@@ -1,8 +1,8 @@
 site_name: 西北工业大学舞蹈机器人基地
-site_url: https://NPU-Home.github.io/home # 网站地址
+site_url: https://NPU-Home.github.io/ # 网站地址
 
-repo_name: NPU-Home/home # 仓库名称
-repo_url: https://github.com/NPU-Home/home # 仓库地址
+repo_name: NPU-Home/NPU-Home.github.io # 仓库名称
+repo_url: https://github.com/NPU-Home/NPU-Home.github.io # 仓库地址
 
 theme:
     name: "material" # 主题名称
@@ -40,7 +40,7 @@ extra_javascript:
 
 plugins:
     - heti:
-        disable_serve: false
+          disable_serve: false
     - mkdocs-video:
           is_video: False
           video_muted: False
@@ -52,16 +52,16 @@ plugins:
     - search
 
     - git-revision-date-localized:
-        type: timeago
-        timezone: Asia/Shanghai
-        locale: zh
-        enable_creation_date: true
+          type: timeago
+          timezone: Asia/Shanghai
+          locale: zh
+          enable_creation_date: true
 
 markdown_extensions:
     - abbr # 缩写
     - pymdownx.snippets # 代码块
     - pymdownx.highlight: # 代码高亮
-            anchor_linenums: true # 代码行号
+          anchor_linenums: true # 代码行号
     - pymdownx.inlinehilite # 行内代码高亮
     - pymdownx.superfences # 内置标题栏
     - attr_list # 属性列表
@@ -101,8 +101,10 @@ markdown_extensions:
     - pymdownx.arithmatex: # 数学公式
           generic: true # 通用
     - pymdownx.emoji: # emoji
-            emoji_index: !!python/name:material.extensions.emoji.twemoji # emoji索引
-            emoji_generator: !!python/name:material.extensions.emoji.to_svg
+          emoji_index:
+              !!python/name:material.extensions.emoji.twemoji # emoji索引
+
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
     - index.md
@@ -123,9 +125,9 @@ nav:
           - 篮球组: page/比赛/篮球组.md
 
     - 技术文档:
-        - page/文档/index.md
-        - 家政组:
-            - 机械臂文档: https://npu-home.github.io/arm/
+          - page/文档/index.md
+          - 家政组:
+                - 机械臂文档: https://npu-home.github.io/arm/
 
     - 招新信息:
-        - page/招新/index.md
+          - page/招新/index.md
