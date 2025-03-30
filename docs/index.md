@@ -4,24 +4,7 @@ hide:
     - footer
 title: 首页
 comment: True
-tags:
-    - HTML5
-    - JavaScript
-    - CSS
 ---
-
-!!! Tip "🎉 西北工业大学舞蹈机器人基地 2024 届招新开始了！"
-
-    舞蹈机器人基地在参加的robocup和中国机器人大赛的部分项目中，是唯一自己完全打造机器人的队伍（从电路板的设计，到3D外壳打造，再到软件代码编写）加入基地享受DIY的乐趣╭（′▽‵）╭（′▽‵）╭（′▽‵）╯。
-
-    点击加入招新QQ群：
-
-    [舞基 2025 招新总群 :material-qqchat:](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=9mDzoG_VrSHDSPWlmI35zFd13_Ye3W0M&authKey=m6zCBR1P%2Bne%2BGF7HOsPdy%2FbDcgVk6vhiAl3IYJXDFe2DIkeclC59HUzZUMqBNamt&noverify=0&group_code=970686200){.md-button}
-    [软件招新群 :material-qqchat:](https://qm.qq.com/q/H8qeYTCKoQ){.md-button}
-    [机械招新群 :material-qqchat:](https://qm.qq.com/q/XpbIMugNQ2){.md-button}
-    [电子招新群 :material-qqchat:](https://qm.qq.com/q/FxPs07yoWQ){.md-button}
-
-    [查看招新信息 :octicons-chevron-right-12:](./page/招新/index.md){#right .md-button style="margin-bottom:.5rem"}
 
 # 西北工业大学舞蹈机器人基地
 
