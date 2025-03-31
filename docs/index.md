@@ -123,9 +123,7 @@ comment: True
           color: #3670ee;
           background: none;
       }
-      </style>
-
-    <a class="egg" href="https://www.zhihu.com/question/363786870/answer/956180105" markdown>:simple-zhihu:{ title="你发现了彩蛋 🥚" }</a>
+      </style><a class="egg" href="https://www.zhihu.com/question/363786870/answer/956180105" markdown>:simple-zhihu:{ title="你发现了彩蛋 🥚" }</a>
 
     [myyerrol 的个人网站](https://myyerrol.xyz/){#width .md-button}
 
