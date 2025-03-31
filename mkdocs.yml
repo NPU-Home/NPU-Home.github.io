@@ -128,6 +128,7 @@ nav:
     - 技术文档:
           - page/文档/index.md
           - 家政组:
+                - 视觉文档: https://npu-home.github.io/vision-docs-site/
                 - 机械臂文档: https://npu-home.github.io/arm/
 
     - 招新信息:
