@@ -13,7 +13,7 @@
     background-color: var(--md-code-bg-color);
     color: var(--md-default-fg-color);
     border: none;
-    border-radius: 8px;
+    border-radius: 1rem;
     transition: font-weight .25s, background-color .25s;
     text-align: center;
     box-shadow: 2px 3px 10px 2px var(--md-pic-shadow-color);
@@ -27,6 +27,7 @@
     width: 100%;
     padding: .625em 1em;
 }
+
 #width-left {
     width: 100%;
     text-align: left;

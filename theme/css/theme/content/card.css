@@ -2,7 +2,7 @@
 .md-typeset .grid.cards>ul>li,
 .md-typeset .grid>.card {
     background-color: var(--md-primary-fg-color);
-    border-radius: 8px;
+    border-radius: 1rem;
     border: 2px solid var(--md-pic-shadow-color);
 }
 
@@ -13,7 +13,7 @@
 }
 
 name {
-    font-size:1.45rem;
+    font-size: 1.45rem;
     font-weight: 700;
     color: var(--md-default-fg-color);
     margin-left: 10px;
@@ -27,7 +27,7 @@ name {
     bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 1rem 1rem;
     border: 2px solid var(--md-pic-shadow-color);
     border-top: 0;
 }
@@ -41,16 +41,17 @@ name {
     max-width: 100%;
 }
 
-.card{
+.card {
     background-color: var(--md-primary-fg-color);
-    border-radius: 8px;
+    border-radius: 1rem;
     border: 2px solid var(--md-pic-shadow-color);
     display: block;
     margin: 0;
     padding: .8rem;
-    transition: border .25s,box-shadow .25s;
+    transition: border .25s, box-shadow .25s;
 }
-.card:hover{
+
+.card:hover {
     border: 2px solid var(--md-primary-fg-color);
     box-shadow: var(--md-shadow-z2)
 }
