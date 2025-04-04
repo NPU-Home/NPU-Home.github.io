@@ -72,7 +72,7 @@ comment: True
 
 <div class="grid cards" markdown>
 
--   ![pic](https://avatars.githubusercontent.com/u/171696651?s=400&u=088180d0e084b76aed5b496ac552db1edec7a5f3&v=4){#ico .no-zoom} <name>Home Team of NPU Dance Robot Base</name>
+-   ![pic](https://avatars.githubusercontent.com/u/171696651?s=400&u=088180d0e084b76aed5b496ac552db1edec7a5f3&v=4){#ico .off-glb} <name>Home Team of NPU Dance Robot Base</name>
 
     ***
 
@@ -84,7 +84,7 @@ comment: True
 
 <div class="grid cards" markdown>
 
--   ![pic](https://avatars.githubusercontent.com/u/15942393?s=200&v=4){#ico .no-zoom} <name>Team Xmbot Service Robot</name>
+-   ![pic](https://avatars.githubusercontent.com/u/15942393?s=200&v=4){#ico .off-glb} <name>Team Xmbot Service Robot</name>
 
     ***
 
@@ -96,7 +96,7 @@ comment: True
 
 <div class="grid cards" markdown>
 
--   ![pic](https://avatars.githubusercontent.com/u/18671466?s=200&v=4){#ico .no-zoom} <name>Team-Explorer-Rescue-Robot</name>
+-   ![pic](https://avatars.githubusercontent.com/u/18671466?s=200&v=4){#ico .off-glb} <name>Team-Explorer-Rescue-Robot</name>
 
     ***
 
@@ -110,7 +110,7 @@ comment: True
 
 <div class="grid cards" markdown>
 
--   ![Miao Yuyang](https://avatars.githubusercontent.com/u/4677346?v=4){#ico .no-zoom} <name>Miao Yuyang</name>
+-   ![Miao Yuyang](https://avatars.githubusercontent.com/u/4677346?v=4){#ico .off-glb} <name>Miao Yuyang</name>
       <style>
       a.egg {
           color: rgba(0, 0, 0, 0);
@@ -127,7 +127,7 @@ comment: True
 
     [myyerrol 的个人网站](https://myyerrol.xyz/){#width .md-button}
 
--   ![JiaoYanMoGu](https://avatars.githubusercontent.com/u/14070120?v=4){#ico .no-zoom} <name>JiaoYanMoGu</name>
+-   ![JiaoYanMoGu](https://avatars.githubusercontent.com/u/14070120?v=4){#ico .off-glb} <name>JiaoYanMoGu</name>
 
     [博客园](https://www.cnblogs.com/jymg){#width .md-button}
 
@@ -138,31 +138,31 @@ function display_alert()
     }
 </script>
 
--   ![xingE650](https://avatars.githubusercontent.com/u/24352308?v=4){#ico .no-zoom} <name>xingE650</name>
+-   ![xingE650](https://avatars.githubusercontent.com/u/24352308?v=4){#ico .off-glb} <name>xingE650</name>
 
     [Oppai>///<](https://xinge650.github.io/){#width .md-button onclick="display_alert() "title="点一下看看 😮"}
 
--   ![q1anchen](https://q1anchen.com/img/avatar.png){#ico .no-zoom} <name>q1anchen</name>
+-   ![q1anchen](https://q1anchen.com/img/avatar.png){#ico .off-glb} <name>q1anchen</name>
 
     [q1anchen's blog](https://q1anchen.com/){#width .md-button}
 
--   ![climerecho](https://avatars.githubusercontent.com/u/81315777?v=4){#ico .no-zoom} <name>climerecho</name>
+-   ![climerecho](https://avatars.githubusercontent.com/u/81315777?v=4){#ico .off-glb} <name>climerecho</name>
 
     [博客园](https://www.cnblogs.com/Roboduster){#width .md-button}
 
--   ![YangMY](https://avatars.githubusercontent.com/u/125655203?v=4){#ico .no-zoom} <name>Yang Mingyuan</name>
+-   ![YangMY](https://avatars.githubusercontent.com/u/125655203?v=4){#ico .off-glb} <name>Yang Mingyuan</name>
 
     [YangMY 的个人笔记本](https://peterjeremiah.github.io/NoteBook/){#width .md-button}
 
--   ![RonaldLN](https://avatars.githubusercontent.com/u/120019179?v=4){#ico .no-zoom} <name>RonaldLN</name>
+-   ![RonaldLN](https://avatars.githubusercontent.com/u/120019179?v=4){#ico .off-glb} <name>RonaldLN</name>
 
     [MyPamphlet](https://ronaldln.github.io/MyPamphlet/){#width .md-button}
 
--   ![GaoZQi](https://avatars.githubusercontent.com/u/62362150?v=4){#ico .no-zoom} <name>GaoZQi</name>
+-   ![GaoZQi](https://avatars.githubusercontent.com/u/62362150?v=4){#ico .off-glb} <name>GaoZQi</name>
 
     [GaoZQi' Note](https://gaozqi.github.io/note/){#width .md-button}
 
--   ![ico](https://img.picui.cn/free/2024/09/05/66d91b9c21423.bmp){#ico .no-zoom} <name onMouseOver="this.style.color='var(--md-default-fg-color)'" onMouseOut="this.style.color='rgba(0, 0, 0, 0)'"style="color: rgba(0, 0, 0, 0);transition: color 1s cubic-bezier(0, 1.16, 0.58, 1);"title="期待你的博客 😶‍🌫️">404 Not Found</name>
+-   ![ico](https://img.picui.cn/free/2024/09/05/66d91b9c21423.bmp){#ico .off-glb} <name onMouseOver="this.style.color='var(--md-default-fg-color)'" onMouseOut="this.style.color='rgba(0, 0, 0, 0)'"style="color: rgba(0, 0, 0, 0);transition: color 1s cubic-bezier(0, 1.16, 0.58, 1);"title="期待你的博客 😶‍🌫️">404 Not Found</name>
 
     [添加友链](https://github.com/NPU-Home/home/discussions/2){#width .md-button}
 
@@ -170,8 +170,8 @@ function display_alert()
 
 ## 贡献
 
-[![GaoZQi](https://avatars.githubusercontent.com/u/62362150?v=4 "GaoZQi"){#ico .no-zoom}](https://github.com/GaoZQi){#no-underline}
-[![RonaldLN](https://avatars.githubusercontent.com/u/120019179?v=4 "RonaldLN"){#ico .no-zoom}](https://github.com/RonaldLN){#no-underline}
-[![qianfengXux](https://avatars.githubusercontent.com/u/150541161?v=4 "qianfengXux"){#ico .no-zoom}](https://github.com/qianfengXux){#no-underline}
+[![GaoZQi](https://avatars.githubusercontent.com/u/62362150?v=4 "GaoZQi"){#ico .off-glb}](https://github.com/GaoZQi){#no-underline}
+[![RonaldLN](https://avatars.githubusercontent.com/u/120019179?v=4 "RonaldLN"){#ico .off-glb}](https://github.com/RonaldLN){#no-underline}
+[![qianfengXux](https://avatars.githubusercontent.com/u/150541161?v=4 "qianfengXux"){#ico .off-glb}](https://github.com/qianfengXux){#no-underline}
 
 [^1]: 摘抄自[舞蹈机器人创新实践基地简介舞蹈机器人创新实践基地简介-西北工业大学机电学院](https://jidian.nwpu.edu.cn/info/1112/2286.htm)
