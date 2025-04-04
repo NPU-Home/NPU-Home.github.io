@@ -142,7 +142,7 @@ function display_alert()
 
     [Oppai>///<](https://xinge650.github.io/){#width .md-button onclick="display_alert() "title="点一下看看 😮"}
 
--   ![q1anchen](https://q1anchen.com/img/avatar.png){#ico .off-glb} <name>q1anchen</name>
+-   ![q1anchen](https://avatars.githubusercontent.com/u/117170087?v=4){#ico .off-glb} <name>q1anchen</name>
 
     [q1anchen's blog](https://q1anchen.com/){#width .md-button}
 
