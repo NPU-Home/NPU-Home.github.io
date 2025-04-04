@@ -3,6 +3,7 @@ site_url: https://NPU-Home.github.io/ # 网站地址
 
 repo_name: NPU-Home # 仓库名称
 repo_url: https://github.com/NPU-Home/NPU-Home.github.io # 仓库地址
+edit_uri: edit/main/docs/
 
 theme:
     name: "material" # 主题名称
@@ -25,6 +26,8 @@ theme:
         - navigation.path
         - toc.follow
         - content.tooltips
+        - content.action.edit
+        - content.action.view
 
     palette:
         scheme: auto
@@ -56,6 +59,9 @@ plugins:
           timezone: Asia/Shanghai
           locale: zh
           enable_creation_date: true
+    - git-committers:
+          repository: NPU-Home/home
+          branch: main
 
 markdown_extensions:
     - abbr # 缩写
