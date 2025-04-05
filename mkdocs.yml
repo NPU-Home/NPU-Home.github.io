@@ -75,7 +75,7 @@ plugins:
           locale: zh
           enable_creation_date: true
     - git-committers:
-          repository: NPU-Home/home
+          repository: NPU-Home/NPU-Home.github.io
           branch: main
           exclude_committers:
               - "web-flow"

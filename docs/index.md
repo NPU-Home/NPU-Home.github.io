@@ -3,7 +3,7 @@ hide:
     - navigation
     - footer
 title: 首页
-comment: True
+comments: True
 ---
 
 # 西北工业大学舞蹈机器人基地
