@@ -580,7 +580,7 @@
 <span class="md-icon" title="最后更新">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2024年7月29日 15:02:29"><span class="timeago" datetime="2024-07-29T15:02:29+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2024年7月29日 15:02:29">2024-07-29</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年4月8日 17:45:39"><span class="timeago" datetime="2025-04-08T17:45:39+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年4月8日 17:45:39">2025-04-08</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="创建日期">
@@ -594,6 +594,9 @@
 </span>
 <span>GitHub</span>
 <nav>
+<a class="md-author" href="https://github.com/RonaldLN" title="@RonaldLN">
+<img alt="RonaldLN" src="https://avatars.githubusercontent.com/u/120019179?v=4&amp;size=72"/>
+</a>
 <a class="md-author" href="https://github.com/GaoZQi" title="@GaoZQi">
 <img alt="GaoZQi" src="https://avatars.githubusercontent.com/u/62362150?v=4&amp;size=72"/>
 </a>
@@ -615,6 +618,104 @@
 中可以用 Markdown 来做笔记与自己的一些总结。(这个网页就是用的 markdown 哈哈)</p>
 <h2 id="git">Git（推荐简单掌握）</h2>
 <p><span>Git<span class="heti-spacing"> </span></span>是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</p>
+<details class="quote">
+<summary>摘自<a href="https://pku-minic.github.io/online-doc/#/preface/prerequisites?id=%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-git"><code>如何使用 Git</code><span class="heti-skip"><span class="heti-spacing"> </span>-<span class="heti-spacing"> </span></span>前置知识<span class="heti-skip"><span class="heti-spacing"> </span>-<span class="heti-spacing"> </span></span>北京大学编译实践课程在线文档<span class="heti-skip"><span class="heti-spacing"> </span>|<span class="heti-spacing"> </span></span>北大编译实践在线文档</a></summary>
+<p>一些你需要知道的基本内容<span><span class="heti-spacing"> </span>:</span></p>
+<ul>
+<li><strong>初始化<span class="heti-skip"><span class="heti-spacing"> </span>Git<span class="heti-spacing"> </span></span>仓库<span><span class="heti-spacing"> </span>:</span></strong> 在仓库目录中<code>git init</code><span><span class="heti-spacing"> </span>.</span></li>
+<li><strong>忽略部分文件的更改<span><span class="heti-spacing"> </span>:</span></strong> 在对应目录中放置 <code>.gitignore</code> 文件<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>并在该文件中添加需要忽略的文件的规则<span><span class="heti-spacing"> </span>.</span></li>
+<li><strong>查看仓库状态<span><span class="heti-spacing"> </span>:</span></strong> <code>git status</code>.</li>
+<li><strong>暂存更改<span><span class="heti-spacing"> </span>:</span></strong> <code>git add 文件名</code><span>,<span class="heti-spacing"> </span></span>或 <code>git add -A</code> 暂存全部更改<span><span class="heti-spacing"> </span>.</span></li>
+<li><strong>提交更改<span><span class="heti-spacing"> </span>:</span></strong> <code>git commit</code><span>,<span class="heti-spacing"> </span></span>此时会弹出默认编辑器并要求你输入提交信息<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>也可以直接执行<code>git commit -m "提交信息"</code><span><span class="heti-spacing"> </span>.</span></li>
+<li><strong>添加远程仓库<span><span class="heti-spacing"> </span>:</span></strong> <code>git remote add 名称 仓库URL</code>.</li>
+<li><strong>推送本地提交到远程<span><span class="heti-spacing"> </span>:</span></strong> <code>git push</code>.</li>
+<li><strong>查看所有提交记录<span><span class="heti-spacing"> </span>:</span></strong> <code>git log</code><span>,<span class="heti-spacing"> </span></span>你可以从中看到某个提交的哈希值<span><span class="heti-spacing"> </span>.</span></li>
+<li><strong>把仓库复位到某个提交的状态<span><span class="heti-spacing"> </span>:</span></strong> <code>git reset 提交的哈希值</code>.</li>
+<li><strong>从当前提交新建分支并切换<span><span class="heti-spacing"> </span>:</span></strong> <code>git checkout -b 分支名</code>.</li>
+<li><strong>切换到分支<span><span class="heti-spacing"> </span>:</span></strong> <code>git checkout 分支名</code>.</li>
+<li><strong>删除分支<span><span class="heti-spacing"> </span>:</span></strong> <code>git branch -D 分支名</code>.</li>
+</ul>
+<p>上面提到了 <code>.gitignore</code> 可以让<span class="heti-skip"><span class="heti-spacing"> </span>Git<span class="heti-spacing"> </span></span>忽略目录中某些文件<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>且不让它们出现在<span class="heti-skip"><span class="heti-spacing"> </span>Git<span class="heti-spacing"> </span></span>仓库中<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>这有什么用呢<span><span class="heti-spacing"> </span>?</span></p>
+<p>你在开发过程中难免会产生一些 <strong>“只对你自己有用”</strong> 且 <strong>“不值得永久保留”</strong> 的东西<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>比如你在开发的过程中希望写几个简单的输入来测试你的程序<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>或者验证你程序里的某处是否写对了<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>于是你新建了个名字叫 <code>test.txt</code> 的文件<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>里面写了一些测试的内容<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>然后你在本地调试的时候会让你的程序读取这个文件<span><span class="heti-spacing"> </span>.</span></p>
+<p><code>test.txt</code> 显然只是个用来存放写一些只对你自己有用的临时内容的文件<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你不希望让<span class="heti-skip"><span class="heti-spacing"> </span>Git<span class="heti-spacing"> </span></span>每次都记录这个文件的更改<span class="heti-skip"><span class="heti-spacing"> </span>(<span class="heti-spacing"> </span></span>因为没意义<span class="heti-skip"><span class="heti-spacing"> </span>),<span class="heti-spacing"> </span></span>所以你可以把它写进 <code>.gitignore</code> 中<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>来让<span class="heti-skip"><span class="heti-spacing"> </span>Git<span class="heti-spacing"> </span></span>忽略它<span><span class="heti-spacing"> </span>.</span></p>
+<p>其他类似的情况还包括<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你使用<span class="heti-skip"><span class="heti-spacing"> </span>VS Code<span class="heti-spacing"> </span></span>或<span class="heti-skip"><span class="heti-spacing"> </span>IDEA<span class="heti-spacing"> </span></span>开发你的编译器<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>这些代码编辑器<span class="heti-skip"><span class="heti-spacing"> </span>/IDE<span class="heti-spacing"> </span></span>可能会在项目中生成一些配置文件<span class="heti-skip"><span class="heti-spacing"> </span>(<span class="heti-spacing"> </span></span><code>.vscode</code>或<code>.idea</code><span class="heti-skip"><span class="heti-spacing"> </span>),<span class="heti-spacing"> </span></span>这些文件通常也是不需要被<span class="heti-skip"><span class="heti-spacing"> </span>Git<span class="heti-spacing"> </span></span>记录的<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>因为其中包含了你的一些个人配置<span><span class="heti-spacing"> </span>.</span></p>
+</details>
+<details class="quote">
+<summary>摘自<a href="https://nju-projectn.github.io/ics-pa-gitbook/ics2021/git.html"><span class="heti-skip"><span class="heti-spacing"> </span>git<span class="heti-spacing"> </span></span>入门教程<span class="heti-skip"><span class="heti-spacing"> </span>-<span class="heti-spacing"> </span></span>南京大学 计算机科学与技术系 计算机系统基础 课程实验<span><span class="heti-spacing"> </span>2021</span></a></summary>
+<p></p><h2>人生如戏<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>戏如人生</h2>
+<p>人生就像不能重玩的<span class="heti-skip"><span class="heti-spacing"> </span>Flappy Bird,<span class="heti-spacing"> </span></span>但软件工程领域却并非如此<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>而那不可思议的光玉就是<span class="heti-skip"><span class="heti-spacing"> </span>"<span class="heti-spacing"> </span></span>版本控制系统<span class="heti-skip"><span class="heti-spacing"> </span>".<span class="heti-spacing"> </span></span>版本控制系统给你的开发流程提供了比朋也收集的更强大的光玉<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>能够让你在过去和未来中随意穿梭<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>避免上文中的悲剧降临你的身上<span><span class="heti-spacing"> </span>.</span></p>
+<p>没听说过版本控制系统就完成实验<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>艰辛地排除万难<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>就像游戏通关之后才知道原来游戏可以存档一样<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>其实玩游戏的时候进行存档并不是什么丢人的事情<span><span class="heti-spacing"> </span>.</span></p>
+<p>在实验中<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>我们使用 <code>git</code> 进行版本控制<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>下面简单介绍如何使用<code>git</code><span><span class="heti-spacing"> </span>.</span></p>
+<p></p><h3>游戏设置</h3>
+<p>首先你得安装<code>git</code><span><span class="heti-spacing"> </span>:</span></p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>apt-get<span class="w"> </span>install<span class="w"> </span>git
+</code></pre></div>
+<p>安装好之后<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你需要先进行一些配置工作<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>在终端里输入以下命令</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">"Zhang San"</span><span class="w">        </span><span class="c1"># your name</span>
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">"zhangsan@foo.com"</span><span class="w">    </span><span class="c1"># your email</span>
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>core.editor<span class="w"> </span>vim<span class="w">            </span><span class="c1"># your favourite editor</span>
+<a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>color.ui<span class="w"> </span><span class="nb">true</span>
+</code></pre></div>
+<p>经过这些配置<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你就可以开始使用 <code>git</code> 了<span><span class="heti-spacing"> </span>.</span></p>
+<p>在实验中<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你会通过 <code>git clone</code> 命令下载我们提供的框架代码<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>里面已经包含一些 <code>git</code> 记录<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>因此不需要额外进行初始化<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>如果你想在别的实验<span class="heti-skip"><span class="heti-spacing"> </span>/<span class="heti-spacing"> </span></span>项目中使用<code>git</code><span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你首先需要切换到实验<span class="heti-skip"><span class="heti-spacing"> </span>/<span class="heti-spacing"> </span></span>项目的目录中<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>然后输入</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>git<span class="w"> </span>init
+</code></pre></div>
+<p>进行初始化<span><span class="heti-spacing"> </span>.</span></p>
+<p></p><h3>查看存档信息</h3>
+<p>使用</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>git<span class="w"> </span>log
+</code></pre></div>
+<p>查看目前为止所有的存档<span><span class="heti-spacing"> </span>.</span></p>
+<p>使用</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>git<span class="w"> </span>status
+</code></pre></div>
+<p>可以得知<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>与当前存档相比<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>哪些文件发生了变化<span><span class="heti-spacing"> </span>.</span></p>
+<p></p><h3>存档</h3>
+<p>你可以像以前一样编写代码<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>等到你的开发取得了一些阶段性成果<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你应该马上进行<span class="heti-skip"><span class="heti-spacing"> </span>"<span class="heti-spacing"> </span></span>存档<span><span class="heti-spacing"> </span>".</span></p>
+<p>首先你需要使用 <code>git status</code> 查看是否有新的文件或已修改的文件未被跟踪<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>若有<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>则使用 <code>git add</code> 将文件加入跟踪列表<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>例如</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a>git<span class="w"> </span>add<span class="w"> </span>file.c
+</code></pre></div>
+<p>会将 <code>file.c</code> 加入跟踪列表<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>如果需要一次添加所有未被跟踪的文件<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你可以使用</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a>git<span class="w"> </span>add<span class="w"> </span>-A
+</code></pre></div>
+<p>但这样可能会跟踪了一些不必要的文件<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>例如编译产生的 <code>.o</code> 文件<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>和最后产生的可执行文件<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>事实上<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>我们只需要跟踪代码源文件即可<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>为了让 <code>git</code> 在添加跟踪文件之前作筛选<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你可以编辑 <code>.gitignore</code> 文件<span class="heti-skip"><span class="heti-spacing"> </span>(<span class="heti-spacing"> </span></span>你可以使用 <code>ls -a</code> 命令看到它<span class="heti-skip"><span class="heti-spacing"> </span>),<span class="heti-spacing"> </span></span>在里面给出需要被 <code>git</code> 忽略的文件和文件类型<span><span class="heti-spacing"> </span>.</span></p>
+<p>把新文件加入跟踪列表后<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>使用 <code>git status</code> 再次确认<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>确认无误后就可以存档了<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>使用</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a>git<span class="w"> </span>commit
+</code></pre></div>
+<p>提交工程当前的状态<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>执行这条命令后<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>将会弹出文本编辑器<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你需要在第一行中添加本次存档的注释<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>例如<span class="heti-skip"><span class="heti-spacing"> </span>"fix bug for xxx".<span class="heti-spacing"> </span></span>你应该尽可能添加详细的注释<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>将来你需要根据这些注释来区别不同的存档<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>编写好注释之后<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>保存并退出文本编辑器<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>存档成功<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>你可以使用 <code>git log</code> 查看存档记录<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你应该能看到刚才编辑的注释<span><span class="heti-spacing"> </span>.</span></p>
+<p></p><h3>读档</h3>
+<p>如果你遇到了上文提到的让你悲痛欲绝的情况<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>现在你可以使用光玉来救你一命了<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>首先使用 <code>git log</code> 来查看已有的存档<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>并决定你需要回到哪个过去<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>每一份存档都有一个<span class="heti-skip"><span class="heti-spacing"> </span>hash code,<span class="heti-spacing"> </span></span>例如<code>b87c512d10348fd8f1e32ddea8ec95f87215aaa5</code><span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你需要通过<span class="heti-skip"><span class="heti-spacing"> </span>hash code<span class="heti-spacing"> </span></span>来告诉 <code>git</code> 你希望读哪一个档<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>使用以下命令进行读档<span><span class="heti-spacing"> </span>:</span></p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-8-1" id="__codelineno-8-1" name="__codelineno-8-1"></a>git<span class="w"> </span>reset<span class="w"> </span>--hard<span class="w"> </span>b87c
+</code></pre></div>
+<p>其中 <code>b87c</code> 是上文<span class="heti-skip"><span class="heti-spacing"> </span>hash code<span class="heti-spacing"> </span></span>的前缀<span class="heti-skip"><span class="heti-spacing"> </span>:<span class="heti-spacing"> </span></span>你不需要输入整个<span class="heti-skip"><span class="heti-spacing"> </span>hash code.<span class="heti-spacing"> </span></span>这时你再看看你的代码<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你已经成功地回到了过去<span><span class="heti-spacing"> </span>!</span></p>
+<p>但事实上<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>在使用 <code>git reset</code> 的<span class="heti-skip"><span class="heti-spacing"> </span>hard<span class="heti-spacing"> </span></span>模式之前<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你需要再三确认选择的存档是不是你的真正目标<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>如果你读入了一个较早的存档<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>那么比这个存档新的所有记录都将被删除<span class="heti-skip"><span class="heti-spacing"> </span>!<span class="heti-spacing"> </span></span>这意为着你不能随便回到<span class="heti-skip"><span class="heti-spacing"> </span>"<span class="heti-spacing"> </span></span>将来<span class="heti-skip"><span class="heti-spacing"> </span>"<span class="heti-spacing"> </span></span>了<span><span class="heti-spacing"> </span>.</span></p>
+<p></p><h3>第三视点</h3>
+<p>当然还是有办法来避免上文提到的副作用的<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>这就是 <code>git</code> 的分支功能<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>使用命令</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-9-1" id="__codelineno-9-1" name="__codelineno-9-1"></a>git<span class="w"> </span>branch
+</code></pre></div>
+<p>查看所有分支<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>其中 <code>master</code> 是主分支<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>使用 <code>git init</code> 初始化之后会自动建立主分支<span><span class="heti-spacing"> </span>.</span></p>
+<p>读档的时候使用以下命令</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-10-1" id="__codelineno-10-1" name="__codelineno-10-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>b87c
+</code></pre></div>
+<p>而不是<code>git reset</code><span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>这时你将处于一个虚构的分支中<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你可以</p>
+<ul>
+<li>
+<p>查看 <code>b87c</code> 存档的内容</p>
+</li>
+<li>
+<p>使用以下命令切换到其它分支</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-11-1" id="__codelineno-11-1" name="__codelineno-11-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>分支名
+</code></pre></div>
+</li>
+<li>
+<p>对代码的内容进行修改<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>但你不能使用 <code>git commit</code> 进行存档<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你需要使用</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-12-1" id="__codelineno-12-1" name="__codelineno-12-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-B<span class="w"> </span>分支名
+</code></pre></div>
+<p>把修改结果保存到一个新的分支中<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>如果分支已存在<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>其内容将会被覆盖</p>
+</li>
+</ul>
+<p>不同的分支之间不会相互干扰<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>这也给项目的分布式开发带来了便利<span class="heti-skip"><span class="heti-spacing"> </span>.<span class="heti-spacing"> </span></span>有了分支功能<span class="heti-skip"><span class="heti-spacing"> </span>,<span class="heti-spacing"> </span></span>你就可以像第三视点那样在一个世界的不同时间<span class="heti-skip"><span class="heti-spacing"> </span>(<span class="heti-spacing"> </span></span>一个分支的多个存档<span class="heti-skip"><span class="heti-spacing"> </span>),<span class="heti-spacing"> </span></span>或者是多个平行世界<span class="heti-skip"><span class="heti-spacing"> </span>(<span class="heti-spacing"> </span></span>多个分支<span class="heti-skip"><span class="heti-spacing"> </span>)<span class="heti-spacing"> </span></span>之间来回穿梭了<span><span class="heti-spacing"> </span>.</span></p>
+</details>
 <h2 id="_3">面向对象的思想（推荐掌握）</h2>
 <p>在项目中采用面向对象的思想会让你和队友的体验更好。</p>
 <h2 id="_4">良好的代码规范（推荐简单掌握）</h2>
