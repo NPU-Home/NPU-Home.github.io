@@ -21,3 +21,9 @@
 .md-typeset img[align=left] {
     margin: 0 1rem 0 0;
 }
+
+#none {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+}
